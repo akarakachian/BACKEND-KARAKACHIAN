@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Vacío - $2000 por kg",
+    "precio": 2000,
+    "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/196/355/products/vacio-edit1-1f2ca3b7c4b0d043fc15930371092856-640-0.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Tira de asado - $1850 por kg",
+    "precio": 1850,
+    "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/323/592/products/tira-de-asado1-be9f8df92df650a7d214935965347421-640-0.webp",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Chorizo - $1300 por kg",
+    "precio": 1300,
+    "img": "https://superfreshmarket.com.ve/wp-content/uploads/2021/02/chorizo-parrillero-fresh-Fresh.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Molleja - $4000 por kg",
+    "precio": 4000,
+    "img": "https://supermercadocordial.com.ar/wp-content/uploads/2020/12/mollejas12-600x600.jpg",
+    "cantidad": 1
+  }
+]

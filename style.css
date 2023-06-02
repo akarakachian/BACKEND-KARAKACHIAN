@@ -1,0 +1,173 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  background-color: black;
+}
+
+.navbar-titulo {
+  justify-self: start;
+  margin-left: 20px;
+  color: white;
+  margin-top: 4vh;
+  cursor: pointer;
+}
+
+.carrito-1 {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 3.5vh;
+  cursor: pointer;
+}
+
+.fondo {
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  background-color: grey;
+}
+
+.container-2 {
+  text-align: center;
+  padding: 15% 0;
+}
+
+.container-2 h1 {
+  margin: 0;
+  color: black;
+  text-shadow: 1px 1px 3px black(0, 0, 0, 0.2);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.container-2 p {
+  font-size: 10px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px black (0, 0, 0, 0.2);
+}
+
+.shop-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 black(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card > img {
+  width: 90%;
+  height: 250px;
+}
+
+.price {
+  color: grey;
+  font-size: 25px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.modal-container {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.modal-header-tittle {
+  justify-self: start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+}
+
+.modal-container > .modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.total-content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.delete-product {
+  cursor: pointer;
+}
+
+.carrito-2 {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
